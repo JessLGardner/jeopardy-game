@@ -89,16 +89,19 @@ $(function(){
             var currentAnswer = $(this).attr("id");
             // check if answer right/wrong
             if (currentQuestion.correctAnswer === currentAnswer){
-                console.log("you're right");
+                // console.log("you're right");
+                $('result') = html("You're right");
             } else {
-                console.log("you're wrong");
+                // console.log("you're wrong");
+                $('result') = html("You're wrong");
             }
             $('#modal1').modal('close');
+            $('#modal2').modal('open');
         });
 
 
 
- // fire modal //
+ // call modal //
     $('.modal').modal();
 
  // scoring //

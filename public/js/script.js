@@ -65,14 +65,14 @@ $(function(){
         }
     ];
     
-
-    
+    // need currentQuestion as global variable
+    var currentQuestion = null;
 
     // choose any points button 
     $(".button").on("click", function(){
         // get question data {object} with click
         var clickedButtonId = $(this).attr("id");
-        var currentQuestion = QuestionSet.find(function(object) {       
+        currentQuestion = QuestionSet.find(function(object) {       
             return object.id === clickedButtonId;
         });
         // fill in question modal
@@ -91,7 +91,7 @@ $(function(){
             if (currentQuestion.correctAnswer === currentAnswer){
                 console.log("you're right");
             } else {
-                consle.log("you're wrong");
+                console.log("you're wrong");
             }
             $('#modal1').modal('close');
         });

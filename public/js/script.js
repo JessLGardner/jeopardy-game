@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(function(){
 
  // question data //   
     var QuestionSet = [
@@ -64,14 +64,29 @@ $(document).ready(function(){
             points: "$500"
         }
     ];
-
+    
+    // click button
+    $(".button").on("click", function(){
+        // get question data {object} with click
+        var clickedButtonId = $(this).attr("id");
+        var currentQuestion = QuestionSet.find(function(object) {       
+            return object.id === clickedButtonId;
+        });
+        // fill in question modal
+        $("#question").html(currentQuestion.question);
+        $("#a1").html(currentQuestion.answers.a1);
+        $("#a2").html(currentQuestion.answers.a2);
+        $("#a3").html(currentQuestion.answers.a3);
+        $("#a4").html(currentQuestion.answers.a4);
+    });
  // choose points button //
 
  // choose answer //
 
  // answer value //
 
- // fire modals //
+ // fire modal //
+    $('.modal').modal();
 
  // scoring //
 

@@ -65,7 +65,10 @@ $(function(){
         }
     ];
     
-    // click button
+
+    
+
+    // choose any points button 
     $(".button").on("click", function(){
         // get question data {object} with click
         var clickedButtonId = $(this).attr("id");
@@ -79,11 +82,21 @@ $(function(){
         $("#a3").html(currentQuestion.answers.a3);
         $("#a4").html(currentQuestion.answers.a4);
     });
- // choose points button //
 
- // choose answer //
+        // choose answer //
+        $('.answer-button').on("click", function(){
+            // get answer-button with click
+            var currentAnswer = $(this).attr("id");
+            // check if answer right/wrong
+            if (currentQuestion.correctAnswer === currentAnswer){
+                console.log("you're right");
+            } else {
+                consle.log("you're wrong");
+            }
+            $('#modal1').modal('close');
+        });
 
- // answer value //
+
 
  // fire modal //
     $('.modal').modal();

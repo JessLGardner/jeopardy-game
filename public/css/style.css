@@ -2,6 +2,19 @@ body {
     margin: 10px;
 }
 
+h1 {
+    text-align: center;
+}
+
+h5 {
+    float: right;
+    text-align: right;
+}
+
+.main {
+    clear: both;
+}
+
 #col1 {
     display: inline-block
 }
@@ -12,4 +25,5 @@ body {
 
 .button {
     text-align: center;
+    display: block;
 }

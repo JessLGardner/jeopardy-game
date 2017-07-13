@@ -40,7 +40,7 @@ $(function(){
             points: 300
         },
         {
-            id:'"1-4',
+            id:'1-4',
             question: 'question 4',
             answers: {
                 a1: 'answer1',
@@ -105,7 +105,7 @@ $(function(){
             currentPoints += currentQuestion.points;
             // add to score 
             $('#score').text(currentPoints);
-                console.log(currentPoints);
+                // console.log(currentPoints);
            } else {
             console.log("you're wrong");
             // get result id, display 'wrong' in modal
@@ -114,19 +114,30 @@ $(function(){
             currentPoints -= currentQuestion.points;
             // add to score 
             $('#score').text(currentPoints);
-                console.log(currentPoints);
+                // console.log(currentPoints);
         }
+            endGame(currentPoints);
             
         $('#modal1').modal('close');
         $('#modal2').modal('open');
     });
 
-
+    // winner/loser //
+    // if player reaches 1000 points  // winner modal
+    function endGame(currentPoints){
+          // console.log('its hitting endGame');
+          if (currentPoints >= 1000){
+            console.log('its hitting endGame');
+            //console.log(currentPoints + 'test');
+            $('#modal3').modal('open');
+            $('#endgame').text('You WON!');
+          };
+      };
+ 
  // call modal //
     $('.modal').modal();
-
- // winner/loser //
-
+        
+  
 });
 
 

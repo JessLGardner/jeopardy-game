@@ -366,16 +366,22 @@ $(function(){
             $('#score').text(currentPoints);
                 // console.log(currentPoints);
             }
+        if (currentPoints <= 0) {
+            $('#score').css('color', 'red');
+        } else if (currentPoints > 0){
+            $('#score').css('color', 'white');
+        };
+        
         endGame(currentPoints);
 
-        if (currentPoints <= 0) {
-            $('#score').css("color", "red");
-        };
+        // if (currentPoints <= 0) {
+        //     $('#score').css('color', 'red');
+        // };
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
-        // $('#' + clickedButtonId).html(' ');   // from David Weber
-        // $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
+        $('#' + clickedButtonId).css('color', 'red');   // from David Weber
+        $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
 
     });
 

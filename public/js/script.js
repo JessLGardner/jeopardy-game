@@ -360,9 +360,12 @@ $(function(){
             // add to score 
             $('#score').text(currentPoints);
                 // console.log(currentPoints);
-        }
+            }
             endGame(currentPoints);
-            
+        if (currentPoints <= 0) {
+            $('#score').css("color", "red");
+        };
+
         $('#modal1').modal('close');
         $('#modal2').modal('open');
     });

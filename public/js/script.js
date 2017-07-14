@@ -122,7 +122,7 @@ $(function(){
         $('#modal2').modal('open');
     });
 
-    // winner/loser //
+    // winner/loser // ?no loser?
     // if player reaches 1000 points  // winner modal
     function endGame(currentPoints){
           // console.log('its hitting endGame');

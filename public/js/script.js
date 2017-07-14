@@ -317,7 +317,7 @@ $(function(){
     var clickedButtonId = null;
     var currentPoints = 0;
 
-    // choose points button 
+    // choose points button  // Liam helped organize this function quite a bit
     $('.button').on('click', function(){
         // set button clicked as var
         clickedButtonId = $(this).attr('id');
@@ -327,6 +327,19 @@ $(function(){
             return object.id === clickedButtonId;
         });
 
+        // $('#' + clickedButtonId).html(' ');   // from David Weber
+        // $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
+        
+   
+
+        // setTimeout(function(){
+            // $("#modal1").modal('close');
+            // }, 3000);
+
+        // setTimeout(function() {
+        //     $('#modal1').modal('close');
+        //     }, 3000);
+        
         // fill in question modal
         $('#question').html(currentQuestion.question);
         $('#a1').html(currentQuestion.answers.a1);
@@ -338,9 +351,9 @@ $(function(){
 
     // choose answer //
     $('.answer-button').on('click', function(){
+        
         // get answer-button with click
         var currentAnswer = $(this).attr('id');
-        
         // check if answer right/wrong
         if (currentQuestion.correctAnswer === currentAnswer){
             console.log("you're right");
@@ -361,10 +374,13 @@ $(function(){
             $('#score').text(currentPoints);
                 // console.log(currentPoints);
             }
-            endGame(currentPoints);
+        endGame(currentPoints);
+
         if (currentPoints <= 0) {
             $('#score').css("color", "red");
         };
+
+        $('.button').off('click');
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
@@ -384,12 +400,21 @@ $(function(){
  
  // call modal //
     $('.modal').modal();
+    setTimeout(function() {
+            $('#modal1').modal('close');
+            }, 3000);
         
   
 });
 
 
+// function hideButtonText(element) {
+//   $(this).html(' ');
+// }
 
+// $( window ).resize( function ( element ) {
+//   $p.off( 'click', changeBG );
+// } );
 
 
 // reach:

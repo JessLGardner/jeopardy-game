@@ -346,12 +346,12 @@ $(function(){
         $('#a2').html(currentQuestion.answers.a2);
         $('#a3').html(currentQuestion.answers.a3);
         $('#a4').html(currentQuestion.answers.a4);
-    
+        
     });
 
     // choose answer //
     $('.answer-button').on('click', function(){
-        
+
         // get answer-button with click
         var currentAnswer = $(this).attr('id');
         // check if answer right/wrong
@@ -376,14 +376,17 @@ $(function(){
             }
         endGame(currentPoints);
 
-        if (currentPoints <= 0) {
-            $('#score').css("color", "red");
-        };
+        // if (currentPoints <= 0) {
+        //     $('#score').css("color", "red");
+        // };
 
         $('.button').off('click');
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
+        // $('#' + clickedButtonId).html(' ');   // from David Weber
+        // $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
+
     });
 
     // winner/loser // ?no loser?

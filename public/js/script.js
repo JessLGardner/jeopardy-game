@@ -326,20 +326,8 @@ $(function(){
                 console.log('question');
             return object.id === clickedButtonId;
         });
-
-        // $('#' + clickedButtonId).html(' ');   // from David Weber
-        // $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
-        
-   
-
-        // setTimeout(function(){
-            // $("#modal1").modal('close');
-            // }, 3000);
-
-        // setTimeout(function() {
-        //     $('#modal1').modal('close');
-        //     }, 3000);
-        
+        console.log(currentQuestion);
+     
         // fill in question modal
         $('#question').html(currentQuestion.question);
         $('#a1').html(currentQuestion.answers.a1);
@@ -354,6 +342,10 @@ $(function(){
 
         // get answer-button with click
         var currentAnswer = $(this).attr('id');
+        console.log('current answer is ' + currentAnswer);
+        console.log('correct answer is ' + currentQuestion.correctAnswer);
+        console.log('also, currentQuestion is ');
+        console.log(currentQuestion);
         // check if answer right/wrong
         if (currentQuestion.correctAnswer === currentAnswer){
             console.log("you're right");
@@ -376,11 +368,9 @@ $(function(){
             }
         endGame(currentPoints);
 
-        // if (currentPoints <= 0) {
-        //     $('#score').css("color", "red");
-        // };
-
-        $('.button').off('click');
+        if (currentPoints <= 0) {
+            $('#score').css("color", "red");
+        };
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
@@ -389,7 +379,7 @@ $(function(){
 
     });
 
-    // winner/loser // ?no loser?
+    // winner/loser // no loser
     // if player reaches 1000 points  // winner modal
     function endGame(currentPoints){
           // console.log('its hitting endGame');
@@ -403,24 +393,18 @@ $(function(){
  
  // call modal //
     $('.modal').modal();
-    setTimeout(function() {
-            $('#modal1').modal('close');
-            }, 3000);
-        
   
 });
 
 
-// function hideButtonText(element) {
-//   $(this).html(' ');
-// }
 
-// $( window ).resize( function ( element ) {
-//   $p.off( 'click', changeBG );
-// } );
 
 
 // reach:
+
 // $('.button').off('click'); .hide() .text()
 // var hiddenButtonText = clickedButtonId.html(' ');
-      
+  
+// function hideButtonText(element) {
+//   $(this).html(' ');
+// }

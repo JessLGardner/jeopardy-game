@@ -15,7 +15,7 @@ h5 {
     clear: both;
 }
 
-#col1 {
+#col1, #col2, #col3, #col4, #col5 {
     display: inline-block
 }
 

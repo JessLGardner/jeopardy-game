@@ -3,7 +3,8 @@ $(function(){
 
 // QUESTION DATA //   
     var QuestionSet = [
-        {
+            //column 1//
+        {                    
             id: '1-1',
             question: 'question 1',
             answers: { 
@@ -40,7 +41,7 @@ $(function(){
             points: 300
         },
         {
-            id:'1-4',
+            id: '1-4',
             question: 'question 4',
             answers: {
                 a1: 'answer1',
@@ -53,6 +54,250 @@ $(function(){
         },
         {
             id: '1-5',
+            question: 'question 5',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 500
+        },
+            //column 2//
+        {                    
+            id: '2-1',
+            question: 'question 1',
+            answers: { 
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 100
+        },
+        {
+            id: '2-2',
+            question: 'question 2',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a2',
+            points: 200
+        },
+        {
+            id: '2-3',
+            question: 'question 3',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a3',
+            points: 300
+        },
+        {
+            id: '2-4',
+            question: 'question 4',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a4',
+            points: 400
+        },
+        {
+            id: '2-5',
+            question: 'question 5',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 500
+        },
+            //column 3//
+        {                    
+            id: '3-1',
+            question: 'question 1',
+            answers: { 
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 100
+        },
+        {
+            id: '3-2',
+            question: 'question 2',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a2',
+            points: 200
+        },
+        {
+            id: '3-3',
+            question: 'question 3',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a3',
+            points: 300
+        },
+        {
+            id: '3-4',
+            question: 'question 4',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a4',
+            points: 400
+        },
+        {
+            id: '3-5',
+            question: 'question 5',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 500
+        },
+               //column 4//
+        {                    
+            id: '4-1',
+            question: 'question 1',
+            answers: { 
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 100
+        },
+        {
+            id: '4-2',
+            question: 'question 2',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a2',
+            points: 200
+        },
+        {
+            id: '4-3',
+            question: 'question 3',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a3',
+            points: 300
+        },
+        {
+            id: '4-4',
+            question: 'question 4',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a4',
+            points: 400
+        },
+        {
+            id: '4-5',
+            question: 'question 5',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 500
+        },
+               //column 5//
+        {                    
+            id: '5-1',
+            question: 'question 1',
+            answers: { 
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a1',
+            points: 100
+        },
+        {
+            id: '5-2',
+            question: 'question 2',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a2',
+            points: 200
+        },
+        {
+            id: '5-3',
+            question: 'question 3',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a3',
+            points: 300
+        },
+        {
+            id: '5-4',
+            question: 'question 4',
+            answers: {
+                a1: 'answer1',
+                a2: 'answer2',
+                a3: 'answer3',
+                a4: 'answer4'
+            },
+            correctAnswer: 'a4',
+            points: 400
+        },
+        {
+            id: '5-5',
             question: 'question 5',
             answers: {
                 a1: 'answer1',

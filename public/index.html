@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Jeopardy Game</title>
-    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css"/>
 </head>
 
@@ -19,7 +19,7 @@
         <div class="scoreboard">
             <p>SCORE: $<span id="score">0</span></p>
         </div> <!--scoreboard-->
-        <div class="board row">
+        <div class="gameboard">
             <div class="column" id="col1">
                 <div class="category">CATEGORY</div>
                 <div class="category"><br></div>
@@ -65,12 +65,12 @@
                 <button class="button" id="5-4" data-target="modal1">$400</button>
                 <button class="button" id="5-5" data-target="modal1">$500</button>
             </div> <!--column 5-->
-        </div> <!--board row-->
+        </div> <!--gameboard-->
     </div> <!--main-->
 
     <div id="modal1" class="modal"> <!--question-modal-->
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close btn-flat ">X</a>
+            <a href="#!" class="modal-action modal-close btn-flat">X</a>
         </div> <!--modal-footer-->
        <div class="modal-content">
             <h4 id="question"></h4>
@@ -83,7 +83,7 @@
 
      <div id="modal2" class="modal"> <!--answer-right/wrong-modal-->
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close btn-flat ">X</a>
+            <a href="#!" class="modal-action modal-close btn-flat">X</a>
         </div> <!--modal-footer-->
         <div class="modal-content">
            <h3 id="result"></h3>
@@ -92,7 +92,7 @@
 
     <div id="modal3" class="modal"> <!--winner/loser-modal-->
         <div class="modal-footer">
-            <a href="#!" class="modal-action modal-close waves-effect btn-flat ">X</a>
+            <a href="#!" class="modal-action modal-close btn-flat">X</a>
         </div> <!--modal-footer-->
         <div class="modal-content">
            <h3 id="endgame"></h3>
@@ -100,11 +100,10 @@
     </div> <!--modal3-->
 
     <div class="footer">
-        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-        <a href="https://github.com/JessLGardner/jeopardy-game">github</a>
-        <i class="fa fa-trello fa-2x" aria-hidden="true"></i>
-        <a href="https://trello.com/b/hD4h43Ae/wdi-project-1">trello</a>
+        <a href="https://github.com/JessLGardner/jeopardy-game"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a href="https://trello.com/b/hD4h43Ae/wdi-project-1"><i class="fa fa-trello fa-2x" aria-hidden="true"></i></a>
     </div> <!--footer-->
+    
     <script
         src="https://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="

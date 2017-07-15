@@ -1,5 +1,5 @@
 
-$(function(){
+// $(function(){
 
 // QUESTION DATA //   
     var QuestionSet = [
@@ -312,6 +312,8 @@ $(function(){
     
 // GAMEPLAY ///
 
+$(function(){
+    
     // need these to be global variables
     var currentQuestion = null;
     var clickedButtonId = null;
@@ -371,7 +373,7 @@ $(function(){
         } else if (currentPoints > 0){
             $('#score').css('color', 'white');
         };
-        
+
         endGame(currentPoints);
 
         // if (currentPoints <= 0) {
@@ -380,7 +382,7 @@ $(function(){
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
-        $('#' + clickedButtonId).css('color', 'red');   // from David Weber
+        $('#' + clickedButtonId).css('color', '#4a4e84');   // from David Weber
         $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
 
     });
@@ -389,7 +391,7 @@ $(function(){
     // if player reaches 1000 points  // winner modal
     function endGame(currentPoints){
           // console.log('its hitting endGame');
-          if (currentPoints >= 1000){
+          if (currentPoints >= 500){
             console.log('its hitting endGame');
             //console.log(currentPoints + 'test');
             $('#modal3').modal('open');
@@ -398,8 +400,25 @@ $(function(){
       };
  
  // call modal //
-    $('.modal').modal();
+    $('.modal').modal({
+        inDuration: 0, // Transition in duration
+        outDuration: 0, // Transition out duration
+    });
   
+
+    // $('#modal1').modal({
+    //     inDuration: 0, // Transition in duration
+    //     outDuration: 0, // Transition out duration
+    // });
+    // $('#modal2').modal({
+    //     inDuration: 0, // Transition in duration
+    //     outDuration: 0, // Transition out duration
+    // });
+    // $('#modal3').modal({
+    //     inDuration: 0, // Transition in duration
+    //     outDuration: 0, // Transition out duration
+    // });
+
 });
 
 

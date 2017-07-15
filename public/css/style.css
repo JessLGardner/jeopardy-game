@@ -30,15 +30,22 @@ img {
     padding: 5px 50px; 
 }
 
+.column {
+    display: inline-block;   
+}
+
 .category {
     color: #F4F4F4;
     letter-spacing: 2px;
     font-family: 'Libre Baskerville', serif;
     text-align: center;
-}
-
-#col1, #col2, #col3, #col4, #col5 {
-    display: inline-block;   
+    text-transform: uppercase;
+    display: block;
+    width: 190px;
+    height: 100px;
+    padding: 2px;
+    margin: -2px;  
+    background: radial-gradient(#060CE9,#10136d); 
 }
 
 .button {
@@ -54,10 +61,6 @@ img {
     background: radial-gradient(#060CE9,#10136d);
 }
 
-/* .modal-action {
-    transition-duration: 0s;
-} */
-
 .footer {
     margin: 10px;
 }
@@ -71,8 +74,3 @@ img {
     color: #F4F4F4;
     margin: 10px;
 }
-
-
-/* background-color: #060dd8;
-background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-dark.png");
- This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you!  */

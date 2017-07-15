@@ -57,9 +57,17 @@ body {
 }
 
 .footer {
-
+    margin: 10px;
 }
 
+.fa-github {
+    color: white;
+    margin: 10px;
+}
 
+.fa-trello {
+    color: white;
+    margin: 10px;
+}
 
 

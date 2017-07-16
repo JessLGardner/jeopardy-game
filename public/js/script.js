@@ -67,62 +67,62 @@
             //column 2//
         {                    
             id: '2-1',
-            question: 'question 1',
+            question: 'Georgia',
             answers: { 
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Savannah',
+                a2: 'Atlanta',
+                a3: 'Hunstville',
+                a4: 'Athens'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a2',
             points: 100
         },
         {
             id: '2-2',
-            question: 'question 2',
+            question: 'Texas',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Mesa',
+                a2: 'Austin',
+                a3: 'Dallas',
+                a4: 'Fort Worth'
             },
             correctAnswer: 'a2',
             points: 200
         },
         {
             id: '2-3',
-            question: 'question 3',
+            question: 'Iowa',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Waterloo',
+                a2: 'Cedar Falls',
+                a3: 'Des Moines',
+                a4: 'Columbus'
             },
             correctAnswer: 'a3',
             points: 300
         },
         {
             id: '2-4',
-            question: 'question 4',
+            question: 'South Dakota',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Pierre',
+                a2: 'Sioux Falls',
+                a3: 'Fargo',
+                a4: 'Bismarck'
             },
-            correctAnswer: 'a4',
+            correctAnswer: 'a1',
             points: 400
         },
         {
             id: '2-5',
-            question: 'question 5',
+            question: 'Vermont',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Salem',
+                a2: 'Providence',
+                a3: 'Concord',
+                a4: 'Montpelier'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a4',
             points: 500
         },
             //column 3//
@@ -391,7 +391,7 @@ $(function(){
     // if player reaches 1000 points  // winner modal
     function endGame(currentPoints){
           // console.log('its hitting endGame');
-          if (currentPoints >= 500){
+          if (currentPoints >= 50000){
             console.log('its hitting endGame');
             //console.log(currentPoints + 'test');
             $('#modal3').modal('open');

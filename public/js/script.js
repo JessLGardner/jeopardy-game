@@ -57,9 +57,9 @@
             question: 'Comment in HTML',
             answers: {
                 a1: '< ! - - comment - - >',
-                a2: '/*comment*/',
-                a3: '//comment',
-                a4: '\\comment'
+                a2: '/ * comment * /',
+                a3: '/ / comment',
+                a4: '\\ \\ comment'
             },
             correctAnswer: 'a1',
             points: 500
@@ -186,7 +186,7 @@
             correctAnswer: 'a2',
             points: 500
         },
-               //column 4//
+            //column 4//
         {                    
             id: '4-1',
             question: 'language jQuery is written in',
@@ -216,8 +216,8 @@
             question: 'write a for loop',
             answers: {
                 a1: 'four (var i = 0; i < 1000; i++)',
-                a2: 'for (i = 0; i < myArray.length; i++)',
-                a3: 'while (i <10)',
+                a2: 'for (i = 0; i < myArray.length; i+=)',
+                a3: 'four ( i = 0; i < 1000; i+)',
                 a4: 'for (var i = 0; i < myArray.length; i++)'
             },
             correctAnswer: 'a4',
@@ -239,15 +239,15 @@
             id: '4-5',
             question: 'set the background color of all p elements to red',
             answers: {
-                a1: '$("p").style(backgroundColor, red);',
-                a2: '$("p").style("background-color","red");',
-                a3: '$("p").css("background-color","red");',
-                a4: '$("p").layout("background-color","red");'
+                a1: '.style(backgroundColor, red);',
+                a2: '.style("background-color","red");',
+                a3: '.css("background-color","red");',
+                a4: '.layout("background-color","red");'
             },
             correctAnswer: 'a3',
             points: 500
         },
-               //column 5//
+            //column 5//
         {                    
             id: '5-1',
             question: 'The death of what person triggered World War I?',

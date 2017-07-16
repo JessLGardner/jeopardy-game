@@ -6,60 +6,60 @@
             //column 1//
         {                    
             id: '1-1',
-            question: 'question 1',
+            question: 'free and open-source front-end web framework for designing',
             answers: { 
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Beltstrap',
+                a2: 'Bootstrap',
+                a3: 'Bootstyle',
+                a4: 'Brastrap'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a2',
             points: 100
         },
         {
             id: '1-2',
-            question: 'question 2',
+            question: 'CSS stand for',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Cascading Style Sheet',
+                a2: 'C Sharp Sharp',
+                a3: 'Central Style Sheet',
+                a4: 'Cascading Set Styles'
             },
-            correctAnswer: 'a2',
+            correctAnswer: 'a1',
             points: 200
         },
         {
             id: '1-3',
-            question: 'question 3',
+            question: 'link CSS stylesheet in this HTML section',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'main',
+                a2: 'body',
+                a3: 'header',
+                a4: 'head'
             },
-            correctAnswer: 'a3',
+            correctAnswer: 'a4',
             points: 300
         },
         {
             id: '1-4',
-            question: 'question 4',
+            question: 'CSS selector for id',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '.',
+                a2: '$',
+                a3: '#',
+                a4: '*'
             },
-            correctAnswer: 'a4',
+            correctAnswer: 'a3',
             points: 400
         },
         {
             id: '1-5',
-            question: 'question 5',
+            question: 'Comment in HTML',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '< ! - - comment - - >',
+                a2: '/*comment*/',
+                a3: '//comment',
+                a4: '\\comment'
             },
             correctAnswer: 'a1',
             points: 500
@@ -128,182 +128,182 @@
             //column 3//
         {                    
             id: '3-1',
-            question: 'question 1',
+            question: '"Just keep swimming."',
             answers: { 
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Jaws',
+                a2: 'Flipper',
+                a3: 'Finding Nemo',
+                a4: 'Moana'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a3',
             points: 100
         },
         {
             id: '3-2',
-            question: 'question 2',
+            question: '"There\'s no crying in baseball!"',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Moneyball',
+                a2: 'The Natural',
+                a3: 'The Sandlot',
+                a4: 'A League of Their Own'
             },
-            correctAnswer: 'a2',
+            correctAnswer: 'a4',
             points: 200
         },
         {
             id: '3-3',
-            question: 'question 3',
+            question: '"Carpe diem! Sieze the day, boys. Make your lives extraordinary"',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Good Will Hunting',
+                a2: 'Hook',
+                a3: 'Dead Poets Society',
+                a4: 'Good Morning Vietnam'
             },
             correctAnswer: 'a3',
             points: 300
         },
         {
             id: '3-4',
-            question: 'question 4',
+            question: '"It\'s alive! It\'s alive!"',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Frankenstein',
+                a2: 'Tremors',
+                a3: 'Godzilla',
+                a4: 'The Mummy'
             },
-            correctAnswer: 'a4',
+            correctAnswer: 'a1',
             points: 400
         },
         {
             id: '3-5',
-            question: 'question 5',
+            question: '"Leave the gun, take the cannoli."',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'The Untouchables',
+                a2: 'The Godfather',
+                a3: 'The Godfather Part II',
+                a4: 'Goodfellas'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a2',
             points: 500
         },
                //column 4//
         {                    
             id: '4-1',
-            question: 'question 1',
+            question: 'language jQuery is written in',
             answers: { 
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Java',
+                a2: 'JavaScript',
+                a3: 'Python',
+                a4: 'QueryScript'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a2',
             points: 100
         },
         {
             id: '4-2',
-            question: 'question 2',
+            question: 'operator is used to assign a value to a variable',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '*',
+                a2: '==',
+                a3: 'x',
+                a4: '='
             },
-            correctAnswer: 'a2',
+            correctAnswer: 'a4',
             points: 200
         },
         {
             id: '4-3',
-            question: 'question 3',
+            question: 'write a for loop',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'four (var i = 0; i < 1000; i++)',
+                a2: 'for (i = 0; i < myArray.length; i++)',
+                a3: 'while (i <10)',
+                a4: 'for (var i = 0; i < myArray.length; i++)'
             },
-            correctAnswer: 'a3',
+            correctAnswer: 'a4',
             points: 300
         },
         {
             id: '4-4',
-            question: 'question 4',
+            question: 'javascript is a ____ side language.',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'client',
+                a2: 'right',
+                a3: 'server',
+                a4: 'blind'
             },
-            correctAnswer: 'a4',
+            correctAnswer: 'a1',
             points: 400
         },
         {
             id: '4-5',
-            question: 'question 5',
+            question: 'set the background color of all p elements to red',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '$("p").style(backgroundColor, red);',
+                a2: '$("p").style("background-color","red");',
+                a3: '$("p").css("background-color","red");',
+                a4: '$("p").layout("background-color","red");'
             },
-            correctAnswer: 'a1',
+            correctAnswer: 'a3',
             points: 500
         },
                //column 5//
         {                    
             id: '5-1',
-            question: 'question 1',
+            question: 'The death of what person triggered World War I?',
             answers: { 
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Franz Ferdinand',
+                a2: 'Czar Nicholas II',
+                a3: 'Vladimir Lenin',
+                a4: 'Winston Churchill'
             },
             correctAnswer: 'a1',
             points: 100
         },
         {
             id: '5-2',
-            question: 'question 2',
+            question: 'Columbus sailed the ocean blue.',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '1500',
+                a2: '1492',
+                a3: '1942',
+                a4: '1660'
             },
             correctAnswer: 'a2',
             points: 200
         },
         {
             id: '5-3',
-            question: 'question 3',
+            question: 'TThe Hundred Years War was fought between what two countries?',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'France and Italy',
+                a2: 'England and Germany',
+                a3: 'France and England',
+                a4: 'England and Ireland'
             },
             correctAnswer: 'a3',
             points: 300
         },
         {
             id: '5-4',
-            question: 'question 4',
+            question: 'King Henry VIII had this many wives.',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: '8',
+                a2: '5',
+                a3: '11',
+                a4: '6'
             },
             correctAnswer: 'a4',
             points: 400
         },
         {
             id: '5-5',
-            question: 'question 5',
+            question: 'Who was the first Western explorer to reach China?',
             answers: {
-                a1: 'answer1',
-                a2: 'answer2',
-                a3: 'answer3',
-                a4: 'answer4'
+                a1: 'Marco Polo',
+                a2: 'Cook',
+                a3: 'Magellan',
+                a4: 'Vespucci'
             },
             correctAnswer: 'a1',
             points: 500
@@ -314,7 +314,6 @@
 
 $(function(){
     
-    // need these to be global variables
     var currentQuestion = null;
     var clickedButtonId = null;
     var currentPoints = 0;

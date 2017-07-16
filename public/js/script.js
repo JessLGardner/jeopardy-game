@@ -6,7 +6,7 @@
             //column 1//
         {                    
             id: '1-1',
-            question: 'free and open-source front-end web framework for designing',
+            question: 'This is a free, open-source front-end web design framework.',
             answers: { 
                 a1: 'Beltstrap',
                 a2: 'Bootstrap',
@@ -18,19 +18,19 @@
         },
         {
             id: '1-2',
-            question: 'CSS stand for',
+            question: 'CSS stands for this.',
             answers: {
                 a1: 'Cascading Style Sheet',
                 a2: 'C Sharp Sharp',
                 a3: 'Central Style Sheet',
-                a4: 'Cascading Set Styles'
+                a4: 'Cascading Set Style'
             },
             correctAnswer: 'a1',
             points: 200
         },
         {
             id: '1-3',
-            question: 'link CSS stylesheet in this HTML section',
+            question: 'Link the CSS stylesheet in this HTML section.',
             answers: {
                 a1: 'main',
                 a2: 'body',
@@ -42,7 +42,7 @@
         },
         {
             id: '1-4',
-            question: 'CSS selector for id',
+            question: 'The CSS selector for id.',
             answers: {
                 a1: '.',
                 a2: '$',
@@ -54,7 +54,7 @@
         },
         {
             id: '1-5',
-            question: 'Comment in HTML',
+            question: 'A comment in HTML looks like this.',
             answers: {
                 a1: '< ! - - comment - - >',
                 a2: '/ * comment * /',
@@ -67,7 +67,7 @@
             //column 2//
         {                    
             id: '2-1',
-            question: 'Georgia',
+            question: 'The capital of Georgia.',
             answers: { 
                 a1: 'Savannah',
                 a2: 'Atlanta',
@@ -79,19 +79,19 @@
         },
         {
             id: '2-2',
-            question: 'Texas',
+            question: 'Pierre is the capital of this state.',
             answers: {
-                a1: 'Mesa',
-                a2: 'Austin',
-                a3: 'Dallas',
-                a4: 'Fort Worth'
+                a1: 'Wyoming',
+                a2: 'South Dakota',
+                a3: 'North Dakota',
+                a4: 'Idaho'
             },
             correctAnswer: 'a2',
             points: 200
         },
         {
             id: '2-3',
-            question: 'Iowa',
+            question: "Iowa's state capital.",
             answers: {
                 a1: 'Waterloo',
                 a2: 'Cedar Falls',
@@ -103,24 +103,24 @@
         },
         {
             id: '2-4',
-            question: 'South Dakota',
+            question: 'The capital of Texas.',
             answers: {
-                a1: 'Pierre',
-                a2: 'Sioux Falls',
-                a3: 'Fargo',
-                a4: 'Bismarck'
+                a1: 'Austin',
+                a2: 'Dallas',
+                a3: 'Santa Fe',
+                a4: 'Fort Worth'
             },
             correctAnswer: 'a1',
             points: 400
         },
         {
             id: '2-5',
-            question: 'Vermont',
+            question: 'Montpelier is the capital city of this state.',
             answers: {
-                a1: 'Salem',
-                a2: 'Providence',
-                a3: 'Concord',
-                a4: 'Montpelier'
+                a1: 'Rhode Island',
+                a2: 'Oregon',
+                a3: 'New Hampshire',
+                a4: 'Vermont'
             },
             correctAnswer: 'a4',
             points: 500
@@ -189,7 +189,7 @@
             //column 4//
         {                    
             id: '4-1',
-            question: 'language jQuery is written in',
+            question: 'The language jQuery is written in.',
             answers: { 
                 a1: 'Java',
                 a2: 'JavaScript',
@@ -201,7 +201,7 @@
         },
         {
             id: '4-2',
-            question: 'operator is used to assign a value to a variable',
+            question: 'The operator used to assign a value to a variable.',
             answers: {
                 a1: '*',
                 a2: '==',
@@ -213,19 +213,19 @@
         },
         {
             id: '4-3',
-            question: 'write a for loop',
+            question: 'Proper for loop syntax.',
             answers: {
                 a1: 'four (var i = 0; i < 1000; i++)',
-                a2: 'for (i = 0; i < myArray.length; i+=)',
-                a3: 'four ( i = 0; i < 1000; i+)',
-                a4: 'for (var i = 0; i < myArray.length; i++)'
+                a2: 'for (i = 0; i < 1000; i+)',
+                a3: 'four ( i = 0; i < 1000; i+=)',
+                a4: 'for (var i = 0; i < 1000; i++)'
             },
             correctAnswer: 'a4',
             points: 300
         },
         {
             id: '4-4',
-            question: 'javascript is a ____ side language.',
+            question: 'Javascript is a ____ side language.',
             answers: {
                 a1: 'client',
                 a2: 'right',
@@ -237,7 +237,7 @@
         },
         {
             id: '4-5',
-            question: 'set the background color of all p elements to red',
+            question: 'Set the background color to red.',
             answers: {
                 a1: '.style(backgroundColor, red);',
                 a2: '.style("background-color","red");',
@@ -250,7 +250,7 @@
             //column 5//
         {                    
             id: '5-1',
-            question: 'The death of what person triggered World War I?',
+            question: 'The death of this person triggered World War I.',
             answers: { 
                 a1: 'Franz Ferdinand',
                 a2: 'Czar Nicholas II',
@@ -264,17 +264,17 @@
             id: '5-2',
             question: 'Columbus sailed the ocean blue.',
             answers: {
-                a1: '1500',
+                a1: '1592',
                 a2: '1492',
                 a3: '1942',
-                a4: '1660'
+                a4: '1662'
             },
             correctAnswer: 'a2',
             points: 200
         },
         {
             id: '5-3',
-            question: 'TThe Hundred Years War was fought between what two countries?',
+            question: 'The Hundred Years War was fought between these two countries.',
             answers: {
                 a1: 'France and Italy',
                 a2: 'England and Germany',
@@ -298,12 +298,12 @@
         },
         {
             id: '5-5',
-            question: 'Who was the first Western explorer to reach China?',
+            question: 'The first Western explorer to reach China.',
             answers: {
                 a1: 'Marco Polo',
-                a2: 'Cook',
-                a3: 'Magellan',
-                a4: 'Vespucci'
+                a2: 'James Cook',
+                a3: 'Ferdinand Magellan',
+                a4: 'Amerigo Vespucci'
             },
             correctAnswer: 'a1',
             points: 500
@@ -381,12 +381,12 @@ $(function(){
 
         $('#modal1').modal('close');
         $('#modal2').modal('open');
-        $('#' + clickedButtonId).css('color', '#4a4e84');   // from David Weber
-        $('#' + clickedButtonId).prop('disabled', true);   // from David Weber
+        $('#' + clickedButtonId).css('color', '#4a4e84');  // from David 
+        $('#' + clickedButtonId).prop('disabled', true);   // from David
 
     });
 
-    // winner/loser // no loser
+    // winner/loser 
     // if player reaches 1000 points  // winner modal
     function endGame(currentPoints){
           // console.log('its hitting endGame');
@@ -419,16 +419,3 @@ $(function(){
     // });
 
 });
-
-
-
-
-
-// reach:
-
-// $('.button').off('click'); .hide() .text()
-// var hiddenButtonText = clickedButtonId.html(' ');
-  
-// function hideButtonText(element) {
-//   $(this).html(' ');
-// }

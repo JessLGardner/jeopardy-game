@@ -31,6 +31,10 @@ img {
     padding: 5px; 
 }
 
+.gameboard {
+    clear: both;
+}
+
 .column {
     display: inline-block;   
 }
@@ -67,7 +71,6 @@ img {
     width: 250px;
     height: 45px;
     font-family: 'Montserrat', sans-serif;
-
 }
 
 .modal .modal-footer {
@@ -83,12 +86,16 @@ img {
     margin: 10px;
 }
 
-.fa-github {
-    color: #F4F4F4;
-    margin: 10px;
+#reset {
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    background: #f7e3b2;
+    display: inline-block;
+    margin: 8px 10px;
 }
 
-.fa-trello {
+.fa {
     color: #F4F4F4;
     margin: 10px;
 }

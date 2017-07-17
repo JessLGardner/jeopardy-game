@@ -5,10 +5,10 @@
             id: '1-1',
             question: 'This is a free, open-source front-end web design framework.',
             answers: { 
-                a1: 'Beltstrap',
-                a2: 'Bootstrap',
-                a3: 'Bootstyle',
-                a4: 'Brastrap'
+                a1: 'What is Beltstrap?',
+                a2: 'What is Bootstrap?',
+                a3: 'What is Bootstyle?',
+                a4: 'What is Brastrap?'
             },
             correctAnswer: 'a2',
             points: 100
@@ -17,10 +17,10 @@
             id: '1-2',
             question: 'CSS stands for this.',
             answers: {
-                a1: 'Cascading Style Sheet',
-                a2: 'C Sharp Sharp',
-                a3: 'Central Style Sheet',
-                a4: 'Cascading Set Style'
+                a1: 'What is Cascading Style Sheet?',
+                a2: 'What is C Sharp Sharp?',
+                a3: 'What is Central Style Sheet?',
+                a4: 'What is Cascading Set Style?'
             },
             correctAnswer: 'a1',
             points: 200
@@ -29,10 +29,10 @@
             id: '1-3',
             question: 'Link the CSS stylesheet in this HTML section.',
             answers: {
-                a1: 'main',
-                a2: 'body',
-                a3: 'header',
-                a4: 'head'
+                a1: 'What is  < main > ?',
+                a2: 'What is  < body > ?',
+                a3: 'What is  < header > ?',
+                a4: 'What is  < head > ?'
             },
             correctAnswer: 'a4',
             points: 300
@@ -41,10 +41,10 @@
             id: '1-4',
             question: 'The CSS selector for id.',
             answers: {
-                a1: '.',
-                a2: '$',
-                a3: '#',
-                a4: '*'
+                a1: "What is '.' ?",
+                a2: "What is '$' ?",
+                a3: "What is '#' ?",
+                a4: "What is '*' ?"
             },
             correctAnswer: 'a3',
             points: 400
@@ -66,10 +66,10 @@
             id: '2-1',
             question: 'The capital of Georgia.',
             answers: { 
-                a1: 'Savannah',
-                a2: 'Atlanta',
-                a3: 'Hunstville',
-                a4: 'Athens'
+                a1: 'What is Savannah?',
+                a2: 'What is Atlanta?',
+                a3: 'What is Hunstville?',
+                a4: 'What is Athens?'
             },
             correctAnswer: 'a2',
             points: 100
@@ -78,10 +78,10 @@
             id: '2-2',
             question: 'Pierre is the capital of this state.',
             answers: {
-                a1: 'Wyoming',
-                a2: 'South Dakota',
-                a3: 'North Dakota',
-                a4: 'Idaho'
+                a1: 'What is Wyoming?',
+                a2: 'What is South Dakota?',
+                a3: 'What is North Dakota?',
+                a4: 'What is Idaho?'
             },
             correctAnswer: 'a2',
             points: 200
@@ -90,10 +90,10 @@
             id: '2-3',
             question: "Iowa's state capital.",
             answers: {
-                a1: 'Waterloo',
-                a2: 'Cedar Falls',
-                a3: 'Des Moines',
-                a4: 'Columbus'
+                a1: 'What is Waterloo?',
+                a2: 'What is Cedar Falls?',
+                a3: 'What is Des Moines?',
+                a4: 'What is Columbus?'
             },
             correctAnswer: 'a3',
             points: 300
@@ -102,10 +102,10 @@
             id: '2-4',
             question: 'The capital of Texas.',
             answers: {
-                a1: 'Austin',
-                a2: 'Dallas',
-                a3: 'Santa Fe',
-                a4: 'Fort Worth'
+                a1: 'What is Austin?',
+                a2: 'What is Dallas?',
+                a3: 'What is Santa Fe?',
+                a4: 'What is Fort Worth?'
             },
             correctAnswer: 'a1',
             points: 400
@@ -114,10 +114,10 @@
             id: '2-5',
             question: 'Montpelier is the capital city of this state.',
             answers: {
-                a1: 'Rhode Island',
-                a2: 'Oregon',
-                a3: 'New Hampshire',
-                a4: 'Vermont'
+                a1: 'What is Rhode Island?',
+                a2: 'What is Oregon?',
+                a3: 'What is New Hampshire?',
+                a4: 'What is Vermont?'
             },
             correctAnswer: 'a4',
             points: 500
@@ -127,10 +127,10 @@
             id: '3-1',
             question: '"Just keep swimming."',
             answers: { 
-                a1: 'Jaws',
-                a2: 'Flipper',
-                a3: 'Finding Nemo',
-                a4: 'Moana'
+                a1: 'What is Jaws?',
+                a2: 'What is Flipper?',
+                a3: 'What is Finding Nemo?',
+                a4: 'What is Moana?'
             },
             correctAnswer: 'a3',
             points: 100
@@ -139,10 +139,10 @@
             id: '3-2',
             question: '"There\'s no crying in baseball!"',
             answers: {
-                a1: 'Moneyball',
-                a2: 'The Natural',
-                a3: 'The Sandlot',
-                a4: 'A League of Their Own'
+                a1: 'What is Moneyball?',
+                a2: 'What is The Natural?',
+                a3: 'What is The Sandlot?',
+                a4: 'What is A League of Their Own?'
             },
             correctAnswer: 'a4',
             points: 200
@@ -151,10 +151,10 @@
             id: '3-3',
             question: '"Carpe diem! Sieze the day, boys. Make your lives extraordinary"',
             answers: {
-                a1: 'Good Will Hunting',
-                a2: 'Hook',
-                a3: 'Dead Poets Society',
-                a4: 'Good Morning Vietnam'
+                a1: 'What is Good Will Hunting?',
+                a2: 'What is Hook?',
+                a3: 'What is Dead Poets Society?',
+                a4: 'What is Good Morning Vietnam?'
             },
             correctAnswer: 'a3',
             points: 300
@@ -163,10 +163,10 @@
             id: '3-4',
             question: '"It\'s alive! It\'s alive!"',
             answers: {
-                a1: 'Frankenstein',
-                a2: 'Tremors',
-                a3: 'Godzilla',
-                a4: 'The Mummy'
+                a1: 'What is Frankenstein?',
+                a2: 'What is Tremors?',
+                a3: 'What is Godzilla?',
+                a4: 'What is The Mummy?'
             },
             correctAnswer: 'a1',
             points: 400
@@ -175,10 +175,10 @@
             id: '3-5',
             question: '"Leave the gun, take the cannoli."',
             answers: {
-                a1: 'The Untouchables',
-                a2: 'The Godfather',
-                a3: 'The Godfather Part II',
-                a4: 'Goodfellas'
+                a1: 'What is The Untouchables?',
+                a2: 'What is The Godfather?',
+                a3: 'What is The Godfather Part II?',
+                a4: 'What is Goodfellas?'
             },
             correctAnswer: 'a2',
             points: 500
@@ -188,10 +188,10 @@
             id: '4-1',
             question: 'The language jQuery is written in.',
             answers: { 
-                a1: 'Java',
-                a2: 'JavaScript',
-                a3: 'Python',
-                a4: 'QueryScript'
+                a1: 'What is Java?',
+                a2: 'What is JavaScript?',
+                a3: 'What is Python?',
+                a4: 'What is QueryScript?'
             },
             correctAnswer: 'a2',
             points: 100
@@ -200,17 +200,17 @@
             id: '4-2',
             question: 'The operator used to assign a value to a variable.',
             answers: {
-                a1: '*',
-                a2: '==',
-                a3: 'x',
-                a4: '='
+                a1: "What is '*' ?",
+                a2: "What is '==' ?",
+                a3: "What is 'x' ?",
+                a4: "What is '=' ?"
             },
             correctAnswer: 'a4',
             points: 200
         },
         {
             id: '4-3',
-            question: 'Proper for loop syntax.',
+            question: "Proper 'for loop' syntax.",
             answers: {
                 a1: 'four (var i = 0; i < 1000; i++)',
                 a2: 'for (i = 0; i < 1000; i+)',
@@ -224,10 +224,10 @@
             id: '4-4',
             question: 'Javascript is a ____ side language.',
             answers: {
-                a1: 'client',
-                a2: 'right',
-                a3: 'server',
-                a4: 'blind'
+                a1: 'What is client?',
+                a2: 'What is right?',
+                a3: 'What is server?',
+                a4: 'What is blind?'
             },
             correctAnswer: 'a1',
             points: 400
@@ -249,10 +249,10 @@
             id: '5-1',
             question: 'The death of this person triggered World War I.',
             answers: { 
-                a1: 'Franz Ferdinand',
-                a2: 'Czar Nicholas II',
-                a3: 'Vladimir Lenin',
-                a4: 'Winston Churchill'
+                a1: 'Who is Franz Ferdinand?',
+                a2: 'Who is Czar Nicholas II?',
+                a3: 'Who is Vladimir Lenin?',
+                a4: 'Who is Justin Bieber?'
             },
             correctAnswer: 'a1',
             points: 100
@@ -261,10 +261,10 @@
             id: '5-2',
             question: 'Columbus sailed the ocean blue.',
             answers: {
-                a1: '1592',
-                a2: '1492',
-                a3: '1942',
-                a4: '1662'
+                a1: 'What is 1592?',
+                a2: 'What is 1492?',
+                a3: 'What is 1942 ?',
+                a4: 'What is 1662 ?'
             },
             correctAnswer: 'a2',
             points: 200
@@ -273,10 +273,10 @@
             id: '5-3',
             question: 'The Hundred Years War was fought between these two countries.',
             answers: {
-                a1: 'France and Italy',
-                a2: 'England and Germany',
-                a3: 'France and England',
-                a4: 'England and Ireland'
+                a1: 'What are France and Italy?',
+                a2: 'What are England and Germany?',
+                a3: 'What are France and England?',
+                a4: 'What are England and Ireland?'
             },
             correctAnswer: 'a3',
             points: 300
@@ -285,10 +285,10 @@
             id: '5-4',
             question: 'King Henry VIII had this many wives.',
             answers: {
-                a1: '8',
-                a2: '5',
-                a3: '11',
-                a4: '6'
+                a1: 'What is eight?',
+                a2: 'What is five?',
+                a3: 'What is eleven?',
+                a4: 'What is six?'
             },
             correctAnswer: 'a4',
             points: 400
@@ -297,10 +297,10 @@
             id: '5-5',
             question: 'The first Western explorer to reach China.',
             answers: {
-                a1: 'Marco Polo',
-                a2: 'James Cook',
-                a3: 'Ferdinand Magellan',
-                a4: 'Amerigo Vespucci'
+                a1: 'Who is Marco Polo?',
+                a2: 'Who is James Cook?',
+                a3: 'Who is Ferdinand Magellan?',
+                a4: 'Who is Amerigo Vespucci?'
             },
             correctAnswer: 'a1',
             points: 500

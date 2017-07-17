@@ -353,19 +353,23 @@ $(function(){
         } else if (currentPoints > 0){
             $('#score').css('color', 'white');
         };
-        // endGame(currentPoints);
+        endGame(currentPoints);
         $('#modal1').modal('close');
         $('#modal2').modal('open');
         $('#' + clickedButtonId).css('color', '#4a4e84');           // from David 
         $('#' + clickedButtonId).prop('disabled', true);            // from David
     });
 
-    // function endGame(currentPoints){                              // WINNER MODAL work for v.2 
-    //     if (currentPoints >= 7500){                               // if player reaches X points
-    //         $('#modal3').modal('open');
-    //         $('#endgame').text('You WON!');
-    //     };
-    // };
+    function endGame(currentPoints){                              // WINNER MODAL
+        if (currentPoints >= 5000){                               // if player reaches X points
+            $('#modal3').modal('open');
+            $('#endgame').text('You WON! 😃');
+        } else if (currentPoints <= -5000){
+            $('#modal3').modal('open');
+            $('#endgame').text('You lose. 😭');
+
+        }
+    };
  
     $('.modal').modal();                                            // call modals 
 

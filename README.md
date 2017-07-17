@@ -1,41 +1,32 @@
-A Project description
-A Link to the Deployed App
-A Link to the Trello Board
-A Link to any Wirefames or Mockups (or inline photos / screenshots will work too!)
-A list of technologies, libraries, and/or frameworks used in the project, such as Twitter Bootstrap, jQuery, or Animate.css
-What you would like to add in version 2
-
-
 # Jeopardy Game
 
-[Jeopardy!](http://jeopardygame.bitballoon.com/)
+# [Jeopardy!](http://jeopardygame.bitballoon.com/)
 
 ## Project Description
 
-This game is my first application of HTML, CSS, Javsacript and JQuery. The goal is to deliver a fully operational game that allows for user interaction and scorekeeping.
 
-[Trello](https://trello.com/b/hD4h43Ae/wdi-project-1)
+A quiz game where the user chooses a point value from the gameboard. The user then gets a question with multiple answers to choose. User is notified when the chosen answer is right or wrong and the score is updated. When a certain score is reached, the user is notified of winning or losing the game.
 
-[Wireframes](http://imgur.com/a/P97nD)
-![alt text](http://imgur.com/j36ElfL "Description goes here")
+This is my first application of HTML, CSS, JavaScript and jQuery to create an interactive web based game.  
 
+User stories on [Trello](https://trello.com/b/hD4h43Ae/wdi-project-1)
 
-# Project Title
+Full set of [wireframes](http://imgur.com/a/P97nD)
 
-One Paragraph of project description goes here
+![wireframe](public/css/images/wireframe2.png "Description goes here")
 
-
-
+<!-- http://imgur.com/j36ElfL -->
 
 
 ## Built With
 
 * HTML5, CSS, JavaScript, jQuery
-* [Materialize] (http://materializecss.com/)
-* [Google Fonts] (https://fonts.google.com/)
-* [Font Awesome] (http://fontawesome.io/)
-* [Transparent Textures] (https://www.transparenttextures.com/)
-* [Mockingbird] (https://gomockingbird.com/)
+* [Materialize](http://materializecss.com/)
+* [Google Fonts](https://fonts.google.com/)
+* [Font Awesome](http://fontawesome.io/)
+* [Transparent Textures](https://www.transparenttextures.com/)
+* [Mockingbird](https://gomockingbird.com/)
+
 
 ## Future Development
 

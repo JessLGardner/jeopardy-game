@@ -315,48 +315,37 @@ $(function(){
     var clickedButtonId;
     var currentPoints = 0;
 
-    $('.button').on('click', function(){        // click question  // with help from Liam
-
-        clickedButtonId = $(this).attr('id');                   // set button clicked as var
-        currentQuestion = QuestionSet.find(function(object) {               // find question data {object} with button var
-                console.log('question');
+    $('.button').on('click', function(){                          // click question  // with help from Liam
+        clickedButtonId = $(this).attr('id');                     // set button clicked as var
+        currentQuestion = QuestionSet.find(function(object) {     // find question data {object} with button var
+            // console.log('question');
             return object.id === clickedButtonId;
         });
-        console.log(currentQuestion);
+        // console.log(currentQuestion);
      
-        $('#question').html(currentQuestion.question);      // populate question modal
+        $('#question').html(currentQuestion.question);             // populate question modal
         $('#a1').html(currentQuestion.answers.a1);
         $('#a2').html(currentQuestion.answers.a2);
         $('#a3').html(currentQuestion.answers.a3);
-        $('#a4').html(currentQuestion.answers.a4);
-        
+        $('#a4').html(currentQuestion.answers.a4);   
     });
 
-    $('.answer-button').on('click', function(){     // click answer
-
-        var currentAnswer = $(this).attr('id');             // get answer-button with click
-        console.log('current answer is ' + currentAnswer);
-        console.log('correct answer is ' + currentQuestion.correctAnswer);
-        console.log('also, currentQuestion is ');
-        console.log(currentQuestion);
-
-        if (currentQuestion.correctAnswer === currentAnswer){               // check if answer right/wrong
-            console.log("you're right");
-
-            $('#result').html("You're right");                  // get result id, display 'right' in modal
-
-            currentPoints += currentQuestion.points;                    // get points from data {object}
-
-            $('#score').text(currentPoints);        // add to score
-                                                    // console.log(currentPoints);
-           } else {                     
-            console.log("you're wrong");
-            $('#result').html("You're wrong");                  // get result id, display 'wrong' in modal
-
-            currentPoints -= currentQuestion.points;                    // get points from data {object}
-
-            $('#score').text(currentPoints);       // add to score 
-                                                 // console.log(currentPoints);
+    $('.answer-button').on('click', function(){                    // click answer
+        var currentAnswer = $(this).attr('id');                    // get answer-button with click
+        // console.log(currentAnswer);
+        if (currentQuestion.correctAnswer === currentAnswer){      // check if answer right/wrong
+            $('#result').html(`You're right!`);                    // get result id, display 'right' in modal
+            // console.log("you're right");
+            currentPoints += currentQuestion.points;               // get points from data {object}
+            $('#score').text(currentPoints);                       // add to score
+            // console.log(currentPoints);
+           
+            } else {                     
+            $('#result').html("You're wrong.");                    // get result id, display 'wrong' in modal
+            // console.log("you're wrong");
+            currentPoints -= currentQuestion.points;               // get points from data {object}
+            $('#score').text(currentPoints);                       // add to score 
+            // console.log(currentPoints);
 
             }
         if (currentPoints <= 0) {
@@ -364,35 +353,18 @@ $(function(){
         } else if (currentPoints > 0){
             $('#score').css('color', 'white');
         };
-
-        endGame(currentPoints);
-
+        // endGame(currentPoints);
         $('#modal1').modal('close');
         $('#modal2').modal('open');
-        $('#' + clickedButtonId).css('color', '#4a4e84');  // from David 
-        $('#' + clickedButtonId).prop('disabled', true);   // from David
+        $('#' + clickedButtonId).css('color', '#4a4e84');           // from David 
+        $('#' + clickedButtonId).prop('disabled', true);            // from David
     });
-
-    // winner/loser 
-    // if player reaches 1000 points  // winner modal
-    function endGame(currentPoints){
-          // console.log('its hitting endGame');
-          if (currentPoints >= 50000){
-            console.log('its hitting endGame');
-            //console.log(currentPoints + 'test');
-            $('#modal3').modal('open');
-            $('#endgame').text('You WON!');
-          };
-      };
  
-    $('.modal').modal(); // call modals 
+    $('.modal').modal();                                            // call modals 
 
-
-      // RESET BUTTON work for v.2
-
-    $('#reset').on('click', function(){
+    $('#reset').on('click', function(){                             // RESET BUTTON work for v.2
         location.reload();
-    //     $('.main').children().on('click');
+    //     $('.main').children().on('click');  //??
     //     // function resetGameboard(){
     //     //     console.log('reset game');
     //     //     // clickedButtonId = $('.button').attr('id');          

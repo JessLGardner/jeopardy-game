@@ -373,7 +373,7 @@ $(function(){
  
     $('.modal').modal();                                            // call modals 
 
-    $('#reset').on('click', function(){                             // RESET BUTTON work for v.2
+    $('#reset').on('click', function(){                             // RESET BUTTON work for v2.0
         location.reload();
     //     $('.main').children().on('click');  //??
     //     // function resetGameboard(){

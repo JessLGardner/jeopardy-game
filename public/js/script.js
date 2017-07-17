@@ -359,6 +359,13 @@ $(function(){
         $('#' + clickedButtonId).css('color', '#4a4e84');           // from David 
         $('#' + clickedButtonId).prop('disabled', true);            // from David
     });
+
+    // function endGame(currentPoints){                              // WINNER MODAL work for v.2 
+    //     if (currentPoints >= 7500){                               // if player reaches X points
+    //         $('#modal3').modal('open');
+    //         $('#endgame').text('You WON!');
+    //     };
+    // };
  
     $('.modal').modal();                                            // call modals 
 

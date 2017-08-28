@@ -315,53 +315,46 @@ $(function(){
     var clickedButtonId;
     var currentPoints = 0;
 
-    $('.button').on('click', function(){                          // click question  // with help from Liam
-        clickedButtonId = $(this).attr('id');                     // set button clicked as var
-        currentQuestion = QuestionSet.find(function(object) {     // find question data {object} with button var
-            // console.log('question');
+    $('.button').on('click', function(){                          // question
+        clickedButtonId = $(this).attr('id');                     
+        currentQuestion = QuestionSet.find(function(object) {     
             return object.id === clickedButtonId;
         });
-        // console.log(currentQuestion);
      
-        $('#question').html(currentQuestion.question);             // populate question modal
+        $('#question').html(currentQuestion.question);             
         $('#a1').html(currentQuestion.answers.a1);
         $('#a2').html(currentQuestion.answers.a2);
         $('#a3').html(currentQuestion.answers.a3);
         $('#a4').html(currentQuestion.answers.a4);   
     });
 
-    $('.answer-button').on('click', function(){                    // click answer
-        var currentAnswer = $(this).attr('id');                    // get answer-button with click
-        // console.log(currentAnswer);
-        if (currentQuestion.correctAnswer === currentAnswer){      // check if answer right/wrong
-            $('#result').html(`You're right!`);                    // get result id, display 'right' in modal
-            // console.log("you're right");
-            currentPoints += currentQuestion.points;               // get points from data {object}
-            $('#score').text(currentPoints);                       // add to score
-            // console.log(currentPoints);
-           
-            } else {                     
-            $('#result').html("You're wrong.");                    // get result id, display 'wrong' in modal
-            // console.log("you're wrong");
-            currentPoints -= currentQuestion.points;               // get points from data {object}
-            $('#score').text(currentPoints);                       // add to score 
-            // console.log(currentPoints);
+    $('.answer-button').on('click', function(){                     // answer
+        var currentAnswer = $(this).attr('id');  
 
-            }
-        if (currentPoints <= 0) {
+        if (currentQuestion.correctAnswer === currentAnswer){       // score
+            $('#result').html(`You're right!`);                    
+            currentPoints += currentQuestion.points;               
+            $('#score').text(currentPoints);                         
+        } else {                     
+            $('#result').html("You're wrong.");                    
+            currentPoints -= currentQuestion.points;               
+            $('#score').text(currentPoints);                       // add to score 
+        }
+
+        if (currentPoints <= 0) {                                  // scoreboard
             $('#score').css('color', 'red');
         } else if (currentPoints > 0){
             $('#score').css('color', 'white');
         };
-        endGame(currentPoints);
+        endGame(currentPoints);                                   // end game
         $('#modal1').modal('close');
         $('#modal2').modal('open');
-        $('#' + clickedButtonId).css('color', '#4a4e84');           // from David 
-        $('#' + clickedButtonId).prop('disabled', true);            // from David
+        $('#' + clickedButtonId).css('color', '#4a4e84');           
+        $('#' + clickedButtonId).prop('disabled', true);            
     });
 
-    function endGame(currentPoints){                              // WINNER MODAL
-        if (currentPoints >= 5000){                               // if player reaches X points
+    function endGame(currentPoints){                              // win/lose modal
+        if (currentPoints >= 5000){                               // WIN/LOSE based on empty board work for v2.0
             $('#modal3').modal('open');
             $('#endgame').text('You WON! 😃');
         } else if (currentPoints <= -5000){
@@ -371,7 +364,7 @@ $(function(){
         }
     };
  
-    $('.modal').modal();                                            // call modals 
+    $('.modal').modal();                                             
 
     $('#reset').on('click', function(){                             // RESET BUTTON work for v2.0
         location.reload();

@@ -23,7 +23,8 @@ img {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     letter-spacing: 3px;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .main {
@@ -91,18 +92,22 @@ img {
     margin: 10px;
 }
 
-#reset {
-    float: left;
+.reset {
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     background: #f7e3b2;
-    display: inline-block;
-    margin: 8px 10px;
+    margin: 12px;
+    color: black;
+    font-size: 14px;
+    border-radius: 4px;
 }
 
-.fa {
-    color: #F4F4F4;
-    margin: 10px;
+a {
+    color: #000000;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 @media only screen and (max-width: 800px) {

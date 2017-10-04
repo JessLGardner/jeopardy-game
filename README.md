@@ -28,6 +28,3 @@ Full set of [wireframes](http://imgur.com/a/P97nD)
 
 * multiplayer
 * final jeopardy/wager
-* better reset button functionality
-* responsive CSS
-* themes and styling
